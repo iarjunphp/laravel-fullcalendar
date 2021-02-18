@@ -1,5 +1,5 @@
 {
-    "name": "maddhatter/laravel-fullcalendar",
+    "name": "arjunphp/laravel-fullcalendar",
     "description": "Laravel helper for FullCalendar.io",
     "license": "MIT",
     "authors": [
@@ -9,21 +9,21 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "php": ">=7.3",
+        "illuminate/support": "^5|^6|^7|^8|^9"
     },
     "autoload": {
         "psr-0": {
-            "MaddHatter\\LaravelFullcalendar": "src/"
+            "Arjunphp\\LaravelFullcalendar": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MaddHatter\\LaravelFullcalendar\\ServiceProvider"
+                "Arjunphp\\LaravelFullcalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "MaddHatter\\LaravelFullcalendar\\Facades\\Calendar"
+                "Calendar": "Arjunphp\\LaravelFullcalendar\\Facades\\Calendar"
             }
         }
     },
